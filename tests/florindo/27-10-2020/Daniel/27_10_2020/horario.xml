@@ -1,0 +1,46 @@
+<horario year="2020-2021">
+ <days>
+  <day number="1">
+   <hours>
+    <hour number="1">
+     <subject></subject>
+     <teacher></teacher>
+    </hour>
+    <hour number="2">
+     <subject></subject>
+     <teacher></teacher>
+    </hour>
+    <hour number="3">
+     <subject></subject>
+     <teacher></teacher>
+    </hour>
+    <hour number="4">
+     <subject></subject>
+     <teacher></teacher>
+    </hour>
+    <hour number="5">
+     <subject></subject>
+     <teacher></teacher>
+    </hour>
+    <hour number="6">
+     <subject></subject>
+     <teacher></teacher>
+    </hour>
+   </hours>
+  </day>
+  <day number="2">
+
+  </day>
+  <day number="3">
+
+  </day>
+  <day number="4">
+
+  </day>
+  <day number="5">
+
+  </day>  
+
+
+ </days>
+</horario>
