@@ -6,6 +6,7 @@
                 border: grey 5px double;
                 width: 1200px;
                 height: 500px;
+               
 
             }
             h1{
@@ -44,9 +45,7 @@
             $apellidos = "Sánchez García";
             $edad = 24;
             $foto = "<img src= https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/5536592a70a1ae8d775df846/dia-del-mono.jpg";
-            $competencias1 = "Bachillerato en Ciencias Sociales";
-            $competencias2 = "Curso de monitor de ocio y tiempo libre";
-            $competencias3 = "Carnet de conducir B";
+            $competencias = array ("Bachillerato en Ciencias Sociales","Curso de monitor de ocio y tiempo libre" , "Carnet de conducir B");
             
             
             echo "<h1>Currículum Vitae</h1><br>";
@@ -63,9 +62,9 @@
             echo "<tr>";
             echo "<td>";
             echo "<h2>Competencias</h2> ";
-            echo "<h4>1. $competencias1</h4>";
-            echo "<h4>2. $competencias2</h4>";
-            echo "<h4>3. $competencias3</h4>";
+            echo "<h4>1. $competencias[0]</h4>";
+            echo "<h4>2. $competencias[1]</h4>";
+            echo "<h4>3. $competencias[2]</h4>";
             echo "</td>";
             
             
