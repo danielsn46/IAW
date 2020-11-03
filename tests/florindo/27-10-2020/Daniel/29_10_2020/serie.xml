@@ -1,0 +1,213 @@
+<vikings>
+    <seasons>
+        <season number = "1">
+            <chapters>
+                <chapter number = "1">
+                    <title>Rites of Passage</title>
+                    <synopsis>Ragnar goes on a trip of initiation with his son. Meanwhile, he thinks he has finally found a way to sail ships to the west. However, his beliefs are seen as insane so he chooses to go against the law.</synopsis>
+                </chapter>
+                <chapter number = "2">
+                    <title>Wrath of the Northmen</title>
+                    <synopsis>The stage is set for the first journey west by Ragnar Lothbrok as he gathers a crew willing to risk their lives to travel into the unknown.</synopsis>
+                </chapter>
+                <chapter number = "3">
+                    <title>Dispossessed</title>
+                    <synopsis>After his successful raid, Ragnar and his crew joyously return home with their riches. Earl Haraldson doesn't hesitate to summon Ragnar to the great hall where he lays claim to the entirety of the treasure. He allows the crew to take one thing from the hoard and Ragnar selects Brother Athelstan as his slave. From Athelstan, he learns the political structure in England and wants to learn some of the language.</synopsis>
+                </chapter>
+                <chapter number = "4">
+                    <title>Trial</title>
+                    <synopsis>The Vikings head back to England to see what other treasures this new world has to offer. This go round Ragnar and his crew sail out with Earl Haraldson's permission.</synopsis>
+                </chapter>
+                <chapter number = "5">
+                    <title>Raid</title>
+                    <synopsis>In the Great Hall of Kattegat, a seer reads Earl Haraldson's future and tells him that Ragnar Lothbrok searches for his death.</synopsis>
+                </chapter>
+                <chapter number = "6">
+                    <title>Burial of the Dead</title>
+                    <synopsis>Ragnar, weak and still hurt, must meet the Earl head-on after it comes to light that Rollo has been tortured on Haraldson's orders.</synopsis>
+                </chapter>
+                <chapter number = "7">
+                    <title>A king´s Ransom</title>
+                    <synopsis>Three Viking ships sail upriver towards the very heart of power in eastern England: the Royal Villa of King Aelle.</synopsis>
+                </chapter>
+                <chapter number = "8">
+                    <title>Sacrifice</title>
+                    <synopsis>The traditional pilgrimage to Uppsala to thank the gods brings a torrent of emotions for Ragnar, Lagertha, and Athelstan.</synopsis>
+                </chapter>
+                <chapter number = "9">
+                    <title>All Change</title>
+                    <synopsis>At the behest of King Horik, Ragnar assembles a small party to travel to Gotaland (modern day Sweden) to resolve a land dispute with the area's leader, Jarl Borg.</synopsis>
+                </chapter>
+            </chapters>
+        </season>
+        <season number = "2">
+            <chapters>
+                <chapter number = "1">
+                    <title>Brother´s War</title>
+                    <synopsis>The battle begins between Ragnar and King Horik's forces against Jarl Borg. Borg is joined by Rollo, and this Viking clash pits brother against brother.</synopsis>
+                </chapter>
+                <chapter number = "2">
+                    <title>Invasion</title>
+                    <synopsis>Four peaceful years have since passed with Ragnar as Earl. The time has come for an unlikely alliance to band together in pursuit of a common goal - a new raid on England. A storm pushes the Viking fleet to a new destination, and on the beaches of Wessex, Ragnar and his men may have met their match.</synopsis>
+                </chapter>
+                <chapter number = "3">
+                    <title>Treachery</title>
+                    <synopsis>The Wessex Viking raid is in full swing and King Ecbert finds himself facing an entirely new kind of foe. While Ragnar races to dominate in the West, Jarl Borg has his own plans in store for the future of Kattegat.</synopsis>
+                </chapter>
+                <chapter number = "4">
+                    <title>Eye for an Eye</title>
+                    <synopsis>A meeting between two great men may pave the way for future compromise as Ragnar and Ecbert come face to face. Jarl Borg now rules Kattegat and with an iron fist and Rollo must now become the leader his people need in Ragnar's absence.</synopsis>
+                </chapter>
+                <chapter number = "5">
+                    <title>Answers in Blood</title>
+                    <synopsis>Lagertha and Ragnar unite once again; Aslaug must face the truth of her prophecies; Athelstan struggles to define his faith; Bjorn must once again make a choice.</synopsis>
+                </chapter>
+                <chapter number = "6">
+                    <title>Unforgiven</title>
+                    <synopsis>King Horik returns to Kattegat with a surprising proposition for Ragnar; Lagertha runs into a less than enthusiastic homecoming from her new husband; Athelstan becomes confidant to King Ecbert.</synopsis>
+                </chapter>
+                <chapter number = "7">
+                    <title>Blood Eagle</title>
+                    <synopsis>Ragnar and King Horik clash over differences; King Aelle arrives in Wessex; Ecbert has an eye on a new alliance.</synopsis>
+                </chapter>
+                <chapter number = "8">
+                    <title>The Choice</title>
+                    <synopsis>Ragnar's warriors march on to King Ecbert's villa and are met with a vicious surprise.</synopsis>
+                </chapter>
+                <chapter number = "9">
+                    <title>The Lord´s Prayer</title>
+                    <synopsis>Ragnar returns to Kattegat after the defeat in Wessex and places his trust in those who have stayed by his side all this time.</synopsis>
+                </chapter>
+                
+            </chapters>
+        </season>
+        <season number = "3">
+            <chapters>
+                <chapter number = "1">
+                    <title>Mercenary</title>
+                    <synopsis>Ragnar and Lagertha's fleets depart Kattegat once more for Wessex but this time they bring settlers.</synopsis>
+                </chapter>
+                <chapter number = "2">
+                    <title>The Wanderer</title>
+                    <synopsis>Lagertha and Athelstan help to set up the Viking settlement; a mysterious wanderer turns up.</synopsis>
+                </chapter>
+                <chapter number = "3">
+                    <title>Warrior´s Fate</title>
+                    <synopsis>King Ecbert visits the developing Viking settlement as the first harvest is sown.</synopsis>
+                </chapter>
+                <chapter number = "4">
+                    <title>Scarred</title>
+                    <synopsis>There is bitterness in the camp, Floki is angry over the alliance with Ecbert.</synopsis>
+                </chapter>
+                <chapter number = "5">
+                    <title>The Usurper</title>
+                    <synopsis>The fleet returns to Kattegat to discover tragic circumstances await.</synopsis>
+                </chapter>
+                <chapter number = "6">
+                    <title>Born Again</title>
+                    <synopsis>Preparations for the Paris raid pick up speed, and Rollo thinks about the Seer's prophecy.</synopsis>
+                </chapter>
+                <chapter number = "7">
+                    <title>Paris</title>
+                    <synopsis>The Viking fleet causes panic in Paris; the Emperor Charles declares he will remain in the city.</synopsis>
+                </chapter>
+                <chapter number = "8">
+                    <title>To the Gates!</title>
+                    <synopsis>The Viking army sets out and Paris goes into lockdown as the army prepares the defense.</synopsis>
+                </chapter>
+                <chapter number = "9">
+                    <title>Breaking Point</title>
+                    <synopsis>The Vikings hit Paris with a second assault; Emperor Charles has to make a difficult decision.</synopsis>
+                </chapter>
+                <chapter number = "10">
+                    <title>The Dead</title>
+                    <synopsis>With one last chance to take Paris, Ragnar and his Viking troops take a daring chance. Ragnar asks Bjorn for a favor that could change the course of Viking history.</synopsis>
+                </chapter>
+            </chapters>
+        </season>
+        <season number = "4">
+            <chapters>
+                <chapter number = "1">
+                    <title>A Good Treason</title>
+                    <synopsis>As Ragnar lies in his sick bed in Kattegat, events unfold beyond his control.</synopsis>
+                </chapter>
+                <chapter number = "2">
+                    <title>Kill the Queen</title>
+                    <synopsis>Ragnar and Floki are still at odds; Rollo makes great attempts to win over his new bride, Princess Gisla; Bjorn's survival skills are put to the test; King Ecbert sets the task for his son Aethelwulf to rescue Queen Kwenthrith.</synopsis>
+                </chapter>
+                <chapter number = "3">
+                    <title>Mercy</title>
+                    <synopsis>Ragnar tells Floki he has to pay a heavy price for his actions. Rollo finds an ally in Count Odo. Bjorn Ironside finds more than he bargained for in the wilderness.</synopsis>
+                </chapter>
+                <chapter number = "4">
+                    <title>Yol</title>
+                    <synopsis>Ragnar gets to know the new slave woman while Rollo reveals his ambitions to his wife. Bjorn meets an unexpected warrior on his way home.</synopsis>
+                </chapter>
+                <chapter number = "5">
+                    <title>Promised</title>
+                    <synopsis>Halfdan the Black arrives in Kattegat. Floki reveals a secret to Finehair. Ragnar and Yidu become closer. Meanwhile Lagertha settles a score.</synopsis>
+                </chapter>
+                <chapter number = "6">
+                    <title>What Might Have Been</title>
+                    <synopsis>Ragnar reveals his plan to raid Paris again, and although the fleet is storm-tossed as it sets out, the challenge lies in Frankia where Rollo awaits. Meanwhile, Ecbert dispatches Aethelwulf and Alfred on a pilgrimage to Rome.</synopsis>
+                </chapter>
+                <chapter number = "7">
+                    <title>The Profit and the Loss</title>
+                    <synopsis>Now aware that Rollo has betrayed him, Ragnar carries out his plan of attack, which has dire consequences. Ecbert is given an offer from Prince Wigstan of Mercia. Harbard causes a stir with the women of Kattegat.</synopsis>
+                </chapter>
+                <chapter number = "8">
+                    <title>Portage</title>
+                    <synopsis>After facing defeat on the river, Ragnar refuses to retreat, prompting him to change his methods of attacking Paris. Count Odo's plot against Charles and Rollo backfires. Ecbert now rules Mercia, which dissatisfies Kwenthrith.</synopsis>
+                </chapter>
+                <chapter number = "9">
+                    <title>Death All ´Round</title>
+                    <synopsis>The Vikings finally reach the river. Aethelwulf and Alfred reach Rome. Erlendur makes his move against Bjorn. Sigurd makes a shocking discovery in Kattegat. Ecbert is crowned king in Mercia.</synopsis>
+                </chapter>
+                <chapter number = "10">
+                    <title>The Last Ship</title>
+                    <synopsis>A ferocious battle between the Vikings and the Franks eventually comes down to Ragnar against Rollo. The outcome will seal the fate of the two brothers.</synopsis>
+                </chapter>
+                <chapter number = "11">
+                    <title>The Outsider</title>
+                    <synopsis>Ragnar has returned to Kattegat where he devises a plan to return to Wessex to right past wrongs.</synopsis>
+                </chapter>
+                <chapter number = "12">
+                    <title>The Vision</title>
+                    <synopsis>Ragnar seeks to equip his voyage to Wessex, even while being warned that the gods have deserted him. Bjorn prepares to fulfill his dream of exploring the Mediterranean.</synopsis>
+                </chapter>
+                <chapter number = "13">
+                    <title>Two Journeys</title>
+                    <synopsis>Ragnar and Ivar face a difficult decision in regards to their crew; Bjorn has an unexpected reunion.</synopsis>
+                </chapter>
+                <chapter number = "14">
+                    <title>In the Uncertain Hour Before the Morning</title>
+                    <synopsis>Lagertha attempts to fulfill a long-held ambition; Ragnar negotiates an unexpected concession from King Ecbert.</synopsis>
+                </chapter>
+                <chapter number = "15">
+                    <title>All His Angels</title>
+                    <synopsis>King Aelle can't hide his pleasure when Ragnar arrives in a cage and shows him no mercy.</synopsis>
+                </chapter>
+                <chapter number = "16">
+                    <title>Crossings</title>
+                    <synopsis>Bjorn's fleet sails onward and launches a surprise attack. Back in Kattegat, Lagertha continues in her quest for power.</synopsis>
+                </chapter>
+                <chapter number = "17">
+                    <title>The Great Army</title>
+                    <synopsis>The Great Army is gathering in Kattegat, as Lagertha is saved by Bjorn Ironside from the hands of Ragnar's sons. Rollo is establishing the kingdom of Normandie as a safe-heaven for all vikings in search for land.</synopsis>
+                </chapter>
+                <chapter number = "18">
+                    <title>Revenge</title>
+                    <synopsis>Ragnar's plan comes to fruition; the Viking army lands on the coast of Northumbria.</synopsis>
+                </chapter>
+                <chapter number = "19">
+                    <title>On the Eve</title>
+                    <synopsis>The Viking army causes panic in the English countryside as King Ecbert and Aethelwulf plan the defense of the Kingdom of Wessex.</synopsis>
+                </chapter>
+                <chapter number = "20">
+                    <title>The Reckoning</title>
+                    <synopsis>Prince Aethelwulf finds himself subject to the Vikings' battle master plan; Ecbert remains behind with a plan of his own.</synopsis>
+                </chapter>
+            </chapters>
+        </season>
+    </seasons>
+</vikings>
