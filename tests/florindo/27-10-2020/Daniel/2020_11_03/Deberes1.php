@@ -1,7 +1,7 @@
 
 <html>
     <head>
-        <title>Este es el titulo</title>
+        <title>Practica 1</title>
 
     </head>
     <body>

@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Practica 1</title>
+        <title>Practica 2</title>
     </head>
     <body>
         <?php
@@ -17,17 +17,17 @@
                'ASGBD',
                'EIE',
            );
-           function numerorand($profesores){
-              return $profesores(rand(0, count($profesores)));
-              
-           }
-           echo numerorand($profesores);
-           /*
+            function numerorand($profesores){
+                $numero = (rand(0, (count($profesores)-1)));
+                return $numero;          
+            }
+                       
            for ($i=0; $i<count($asignaturas); $i++){
-           echo "La asignatura".numerorand($asignaturas)."será impartida por".numerorand($profesores);
+           echo "La asignatura <b>".$asignaturas[$i]." </b>será impartida por <b>".$profesores[numerorand($profesores)]."</b><br>";
            
            }
-           */
+           
+           
         ?>
     </body>
 </html>
