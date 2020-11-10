@@ -15,23 +15,34 @@ Usa Textarea para otros comentarios de interes
 Boton submit con el nombre Enviar
 Mostrar los resultados en otra pagina ejercicio1post.php
          */
-        echo "<form action='dos.php' method='POST' enctype='multipart/form-data'>";
-        echo "<input type='hidden' name='tipo_formulario' value='Datos personales'>";
-        echo "Nombre: <input type='text' name='nombre'></br>";
-        echo "Edad: <input type='number' name='edad'></br>";
-        echo "Radio: <input type='radio' name='sexo' value='M' checked> M";
-        echo "<input type='radio'  name='sexo' value='F'> F</br>";
-        echo "Instalaciones: <input type='checkbox' name='extra[]' value='garaje' > Garaje";
-        echo "<input type='checkbox'  name='extra[]' value='jardin' checked> Jardin";
-        echo "<input type='checkbox'  name='extra[]' value='piscina'> Piscina</br>";
+        echo "<form action='ejercicio1post.php' method='POST' enctype='multipart/form-data'>";
+        echo "<input type='hidden' name='formulario' value='Datos'>";
+        echo "Nombre de la fiesta: <input type='text' name='nombre'><br>";
+        echo "Numero de personas: <input type='number' name='personas'><br>";
+        echo "<br>";
+        echo "<input type='radio' name='publica' value='Publica' checked> Publica";
+        echo "<input type='radio'  name='publica' value='privada'> Privada<br>";
 
-       echo "<select name='ciudad'>";
-        echo "<option value='34004'>Palencia</option>";
-        
-        echo "</select></br>";
-        
-        echo "<textarea name='comentarios' cols='40' rows='6'>";
-        echo"</textarea></br>";
+        echo "<br>";
+        echo "Tipo de Musica  ";
+        echo "<select name='tipo'>";
+        echo "<option value='pop'>Pop</option>";
+        echo "<option value='rock'>Rock</option>";
+        echo "<option value='jazz'>Jazz</option>";
+        echo "<option value='indie'>Indie</option>";        
+        echo "</select><br>";
+        echo "<br>";
+
+
+        echo "Espacios: <input type='checkbox' name='espacio[]' value='barras' > Barras";
+        echo "<input type='checkbox'  name='espacio[]' value='escenarios' checked> Escenarios";
+        echo "<input type='checkbox'  name='espacio[]' value='jardin'> Jardín<br>";
+        echo "<input type='checkbox'  name='espacio[]' value='zonachill'> Zona Chill<br>";
+        echo "<input type='checkbox'  name='espacio[]' value='etc'> Etc<br>";
+       
+        echo "<textarea name='comentarios' cols='50' rows='5'>";
+        echo"</textarea><br>";
+        echo "<br>";
         echo "<input type='submit' value='Enviar'>";
         echo "</form>";
         ?>
