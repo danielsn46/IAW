@@ -7,7 +7,7 @@
       echo "La fiesta sera: ".$_POST['publica']. " <br>";
       echo "El tipo de musica sera: ".$_POST['tipo']. " <br>";
 
-      if($_POST['espacio']){
+      if(isset($_POST['espacio'])){
         $espacios = "";
         foreach ($_POST['espacio'] as $key => $value) {
 
