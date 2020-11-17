@@ -11,14 +11,31 @@
     <body>
         <?php
         $errores = [];
+        
         // Control de errores
         if (isset($_POST['enviar'])){
-            if($_POST['nombre'] == ""){
+            if(isset($_POST['nombre']) && ($_POST['nombre'] == "")){
                 $errores['nombre'] = "El nombre de la fiesta es requerido";
-              }
+            }
             
-            if(isset($_POST['espacio']) == ""){
+            if($_POST['espacio'] == ""){
                 $errores['espacio'] = "Los espacios de la fiesta son requeridos";
+            }
+            // También se puede concatenar espacio y espacio1
+
+            /* 
+
+            if (($_POST['espacio'] == "") || (isset($_POST['espacio']) && (count($_POST['espacio']) < 2))) {
+                $errores['espacio']="Al menos 2 espacios requeridos";         
+            }
+            
+            */
+            if(isset($_POST['espacio']) && (count($_POST['espacio']) < 2)) {
+                $errores['espacio1']="Al menos 2 espacios requeridos";         
+            }
+
+            if(isset($_POST['tipo']) && ($_POST['tipo'] == "")){
+                $errores['tipo'] = "El tipo de musica de la fiesta es requerido";
             }
         }
 
@@ -38,13 +55,13 @@
                 }
                 echo "Los espacios elegidos son: ".$espacios. " </br>";
 
-            }else{
+            }else {
                 echo "No ha seleccionado ningun espacio </br>";
             }
             
             echo "Comentarios: ".$_POST['comentarios']. " </br>";
         
-        
+            
         
         } else {
             ?>
@@ -62,6 +79,7 @@
 
             <br>
             Tipo de Musica  <select name='tipo'>
+            <option value=''>Seleccione uno de la lista</option>
             <option value='pop'>Pop</option>
             <option value='rock'>Rock</option>
             <option value='jazz'>Jazz</option>
@@ -71,19 +89,24 @@
             
             <?php if(isset($errores['tipo'])){
             echo "<span class='red'>".$errores['tipo']."</span>";
+            echo "<br>";
             }?>
 
 
-            Espacios: <input type='checkbox' name='espacio[]' value='barras' > Barras
-            <input type='checkbox'  name='espacio[]' value='escenarios' checked> Escenarios
+            Espacios:<br> <input type='checkbox' name='espacio[]' value='barras' > Barras  <br>
+            <input type='checkbox'  name='espacio[]' value='escenarios' checked> Escenarios <br>
             <input type='checkbox'  name='espacio[]' value='jardin'> Jardín<br>
             <input type='checkbox'  name='espacio[]' value='zonachill'> Zona Chill<br>
             <input type='checkbox'  name='espacio[]' value='etc'> Etc
             <br>
             <br>
-            <?php if(isset($errores['espacio'])){
-            echo "<span class='red'>".$errores['espacio']."</span>";
-            }?>
+            <?php 
+            if(isset($errores['espacio'])){
+                echo "<span class='red'>".$errores['espacio']."</span>";
+            } elseif (isset($errores['espacio1'])){
+                echo "<span class= 'red'>".$errores['espacio1']."</span>";
+            }
+            ?>
             <br>
             <br>
             <textarea name='comentarios' cols='50' rows='5'>
