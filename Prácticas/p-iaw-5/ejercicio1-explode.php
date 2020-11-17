@@ -10,7 +10,7 @@
             
             
             for ($i=0; $i < 10 ; $i++ ) {
-                echo $parte1[0].$i.$parte1[1]."<br>";
+                echo $parte1[0].$i."@".$parte1[1]."<br>";
 
             }
             
