@@ -32,7 +32,7 @@
             {
                 echo "<li>La ciudad ".$row['Name']." con código ".$row['CountryCode']. " pertenece al distrito " . $row['District']."</li>";
                 //Por que no funciona
-                $resultado->close();
+                //$resultado->close();
 
             }
             
