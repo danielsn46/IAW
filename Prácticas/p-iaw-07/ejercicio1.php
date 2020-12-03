@@ -14,26 +14,26 @@
             Valor 1 <input type='number' name='input_a'><br> 
             Valor 2 <input type='number' name='input_b'><br>
             
-            <input type='submit' value='SUMAR'>
-            <input type='submit' value='RESTAR'>
-            <input type='submit' value='MULTIPLICAR'>
-            <input type='submit' value='DIVIDIR'>
+            <input type='submit' name='SUMAR' value='SUMAR'>
+            <input type='submit' name='RESTAR' value='RESTAR'>
+            <input type='submit' name='MULTIPLICAR' value='MULTIPLICAR'>
+            <input type='submit' name='DIVIDIR' value='DIVIDIR'>
         </form>
         <?php
             
             if(isset($_POST['input_a']) && ($_POST['input_a'] != "") && (isset($_POST['input_b']) && ($_POST['input_b'] != ""))){
                 if (isset($_POST['SUMAR'])){
                     echo "SUMA";
-                    echo "La suma de los valores ".$_POST['input_a']." y ".$_POST['input_b']." es igual a ".($_POST['input_b']+$_POST['input_a']);
+                    echo "La suma de los valores ".$_POST['input_a']." y ".$_POST['input_b']." es igual a ".($_POST['input_a']+$_POST['input_b']);
                 } 
                 if (isset($_POST['RESTAR'])) {
-                    echo "La resta de los valores ".$_POST['input_a']." y ".$_POST['input_b']." es igual a ".($_POST['input_b']-$_POST['input_a']);
+                    echo "La resta de los valores ".$_POST['input_a']." y ".$_POST['input_b']." es igual a ".($_POST['input_a']-$_POST['input_b']);
                 } 
                 if (isset($_POST['MULTIPLICAR'])) {
-                    echo "La multiplicacion de los valores ".$_POST['input_a']." y ".$_POST['input_b']." es igual a ".($_POST['input_b']*$_POST['input_a']);
+                    echo "La multiplicacion de los valores ".$_POST['input_a']." y ".$_POST['input_b']." es igual a ".($_POST['input_a']*$_POST['input_b']);
                 } 
                 if (isset($_POST['DIVIDIR'])) {
-                    echo "La division de los valores ".$_POST['input_a']." y ".$_POST['input_b']." es igual a ".($_POST['input_b']/$_POST['input_a']);
+                    echo "La division de los valores ".$_POST['input_a']." y ".$_POST['input_b']." es igual a ".($_POST['input_a']/$_POST['input_b']);
                 } 
             }
             else {
