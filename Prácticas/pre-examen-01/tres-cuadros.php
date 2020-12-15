@@ -27,12 +27,24 @@
   <p>Actualice la página para mostrar tres nuevos cuadrados.</p>
   
 <?php
+  
+  $pepe = array('0','1','2','3','4','5','6','7','8');
+  $resultado="";
+  
 
-  
-  
+  for ($i=0; $i<6; $i++){
+    $numero= rand(0,8);
+    
+    $resultado = $resultado.$pepe[$numero];
+    
+    
+
+  }
+  $resultado="#".$resultado;
+  echo $resultado;die;
  
  
-  for ($i = 0; $i<3; $i++){
+  for ($i = 0; $i<9; $i++){
     $r = rand(0,255);
     $g = rand(0,255);
     $b = rand(0,255);
