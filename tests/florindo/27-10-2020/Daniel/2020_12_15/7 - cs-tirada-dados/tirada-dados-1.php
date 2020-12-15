@@ -49,6 +49,7 @@ print "<!-- Ejercicio incompleto -->\n";
 ?>
 
   <p><a href="tirada-dados-2.php">Guardar tirada</a></p>
+  <p><a href="tirada-dados-3.php">Guardar tirada en la página 3</a></p>
 <footer>
   <p>Daniel Sánchez García</p>
 </footer>

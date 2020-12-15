@@ -40,6 +40,7 @@ print "<!-- Ejercicio incompleto -->\n";
   
 
   echo "<p>Valor Total conseguido:".$total."</p>";
+  echo "<p><a href='tirada-dados-1.php'>Volver a tirar</a></p>";
 } else {
   echo "<p><b>No hay datos guardados, vuelve.</b></p>";
   echo "<p><a href='tirada-dados-1.php'>Volver a tirar</a></p>";
