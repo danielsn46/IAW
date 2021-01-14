@@ -21,18 +21,20 @@ session_start();
 
   <?php
 
-    if(isset($_SESSION['sesion'])){
-        if ($_SESSION['sesion'] = "admin"){
+    if(isset($_SESSION['sesion']) && ($_SESSION['sesion'])){
+        
+        if ($_SESSION['username'] = "admin"){
         echo "<p><a href ='insertarnoticia.php'>insertar noticia</a></p>";
         echo "<p><a href ='consultarnoticia.php'>Consultar noticia</a></p>";
         echo "<p><a href ='eliminarnoticia.php'>Eliminar noticia</a></p>";
         echo "<p><a href ='logout.php'>Logout</a></p>";
             
-        } else if ($_SESSION['sesion'] = "daniel"){
+        } else if ($_SESSION['username'] = "daniel"){
             echo "<p><a href ='consultarnoticia.php'>Consultar noticia</a></p>";
             echo "<p><a href ='logout.php'>Logout</a></p>";
 
         } 
+        
     }else{
     ?>
         <form action="procesarlogin.php" method="post">

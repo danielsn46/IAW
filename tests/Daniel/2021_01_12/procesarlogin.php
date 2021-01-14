@@ -28,20 +28,26 @@ session_start();
     $errores = [];
 
     if(isset($_POST['enviar'])){
-        if(isset($_POST['username']) && $_POST['username'] != $usernameValid){
-            $errores[] = "Usuario no encontrado";
-        } else if(isset($_POST['password']) && $_POST['password'] != $passwordValid){
-            $errores[] = "Pasword no encontrada";
-        } else if(isset($_POST['username']) && $_POST['username'] != $usernameValid2){
-            $errores[] = "Usuario no encontrado";
-        } else if(isset($_POST['password']) && $_POST['password'] != $passwordValid2){
+        if((isset($_POST['username']) && $_POST['username'] != $usernameValid) &&(isset($_POST['password']) && $_POST['password'] != $passwordValid2)){
+            $errores[] = "usuario no encontrado";
+        }
+        
+        if((isset($_POST['password']) && $_POST['password'] != $passwordValid2)&&(isset($_POST['password']) && $_POST['password'] != $passwordValid)){
             $errores[] = "Pasword no encontrada";
         }
+        
     }
 
     if(count($errores) == 0){
         // LOGIN OK
         $_SESSION['sesion'] = "iniciada";
+        if ($_POST['username'] == $usernameValid){
+            $_SESSION['usermane'] =$usernameValid;
+        }
+        if ($_POST['usermane'] == $usernameValid2){
+            $_SESSION['usermane'] = $usernameValid2;
+        }
+        var_dump($_POST['username']);die;
         header("Location: http://localhost/Repositorio/tests/Daniel/2021_01_12/login.php");
         die();
     }else{
