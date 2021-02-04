@@ -19,9 +19,9 @@ $sql = "INSERT INTO `equipo` (`id`, `name`) VALUES
   ";
 $resultado = $conn->query($sql);
 if ($resultado) {
-    $_SESSION['insertar_tabla_jugador_posicion'] = true;
+    $_SESSION['insertar_tabla_equipo'] = true;
 }else{
-    $_SESSION['insertar_tabla_jugador_posicion'] = false;
+    $_SESSION['insertar_tabla_equipo'] = false;
 }
 echo "Connected successfully";
 mysqli_close($conn);

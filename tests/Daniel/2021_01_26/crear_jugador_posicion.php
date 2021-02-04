@@ -24,9 +24,9 @@ $sql = "CREATE TABLE IF NOT EXISTS `jugador-posicion` (
 $resultado = $conn->query($sql);
 
 if ($resultado) {
-    $_SESSION['crear_tabla_jugador_posicion'] = true;
+    $_SESSION['crear_jugador_posicion'] = true;
 }else{
-    $_SESSION['crear_tabla_equipo'] = false;
+    $_SESSION['crear_jugador_posicion'] = false;
 }
 echo "Connected successfully";
 mysqli_close($conn);

@@ -18,9 +18,9 @@ $sql = "INSERT INTO `partido` (`id`, `equipo_v_id`, `equipo_l_id`, `resultado`) 
   ";
 $resultado = $conn->query($sql);
 if ($resultado) {
-    $_SESSION['insertar_tabla_partido'] = true;
+    $_SESSION['insertar_datos_partido'] = true;
 }else{
-    $_SESSION['insertar_tabla_partido'] = false;
+    $_SESSION['insertar_datos_partido'] = false;
 }
 echo "Connected successfully";
 mysqli_close($conn);

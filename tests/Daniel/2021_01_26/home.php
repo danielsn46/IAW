@@ -47,8 +47,10 @@
         }
       ?>
     </li>
+    <li><a href="insertar_datos_equipo_form.php">Insertar datos equipo formulario</a></li>
+    <li><a href="listar_equipo.php">Listar equipos</a></li>
     <li>
-      <a href="crear_equipo.php">Crear tabla jugador</a>
+      <a href="crear_jugador.php">Crear tabla jugador</a>
       <?php
         if(isset($_SESSION['crear_tabla_jugador'])){
           if($_SESSION['crear_tabla_jugador']){
@@ -71,8 +73,11 @@
         }
       ?>
     </li>
+    
+    <li><a href="insertar_datos_jugador_form.php">Insertar datos jugador formulario</a></li>
+    <li><a href="listar_jugador.php">Listar jugadores</a></li>
     <li>
-      <a href="crear_tabla_partido.php">Crear tabla partido</a>
+      <a href="crear_partido.php">Crear tabla partido</a>
       <?php
         if(isset($_SESSION['crear_tabla_partido'])){
           if($_SESSION['crear_tabla_partido']){
@@ -86,8 +91,8 @@
     <li>
       <a href="insertar_datos_partido.php">Insertar datos partido</a>
       <?php
-        if(isset($_SESSION['insertar_datos_jugador'])){
-          if($_SESSION['insertar_datos_jugador']){
+        if(isset($_SESSION['insertar_datos_partido'])){
+          if($_SESSION['insertar_datos_partido']){
             echo "<span class='green'>Hecho exitosamente</span>";
           }else{
             echo "<span class='red'>Hecho con errores</span>";
@@ -96,7 +101,7 @@
       ?>
     </li>
     <li>
-      <a href="crear_tabla_posicion.php">Crear tabla posicion</a>
+      <a href="crear_posicion.php">Crear tabla posicion</a>
       <?php
         if(isset($_SESSION['crear_tabla_posicion'])){
           if($_SESSION['crear_tabla_posicion']){
@@ -107,6 +112,8 @@
         }
       ?>
     </li>
+    <li><a href="insertar_datos_posicion_form.php">Insertar datos posicion formulario</a></li>
+    <li><a href="listar_posicion.php">Listar posiciones</a></li>
     <li>
       <a href="insertar_datos_posicion.php">Insertar datos posicion</a>
       <?php

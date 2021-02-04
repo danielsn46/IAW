@@ -17,13 +17,13 @@ $sql = "INSERT INTO `jugador-posicion` (`jugador_id`, `posicion_id`) VALUES
 (2, 3),
 (4, 3),
 (4, 4);
-/*!40000 ALTER TABLE `jugador-posicion` ENABLE KEYS */;
+;
   ";
 $resultado = $conn->query($sql);
 if ($resultado) {
-    $_SESSION['insertar_tabla_equipo'] = true;
+    $_SESSION['insertar_datos_jugador_posicion'] = true;
 }else{
-    $_SESSION['insertar_tabla_equipo'] = false;
+    $_SESSION['insertar_datos_jugador_posicion'] = false;
 }
 echo "Connected successfully";
 mysqli_close($conn);
